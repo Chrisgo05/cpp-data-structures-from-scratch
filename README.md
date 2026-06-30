@@ -116,15 +116,11 @@ Ejercicios de repaso
 - [] selection sort
 - [] insertion sort
 
----
-
 ### Sorting Algorithms (Intermedio)
 
 - [ ] merge sort (arrays)
 - [ ] quick sort (arrays)
 - [ ] heap sort
-
----
 
 ### Sorting Algorithms (Avanzado - optimizados)
 
@@ -132,15 +128,11 @@ Ejercicios de repaso
 - [ ] radix sort
 - [ ] bucket sort
 
----
-
 ### Sorting con estructuras (SIN arrays directos)
 
 - [ ] merge sort (linked list)
 - [ ] insertion sort (linked list)
 - [ ] quick sort (linked list optimized)
-
----
 
 ### Extras (muy avanzados / opcionales)
 
