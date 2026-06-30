@@ -16,38 +16,38 @@ Ubicado en:
 Basics/
 
 Punteros  
-- [✔️] Concepto y uso básico de punteros  
-- [x] Punteros con nodos (linked list base)  
-- [x] Uso de nullptr  
-- [x] Paso por referencia con punteros  
+- ✔️ Concepto y uso básico de punteros  
+- ✔️ Punteros con nodos (linked list base)  
+- ✔️ Uso de nullptr  
+- ✔️ Paso por referencia con punteros  
 
 Referencias  
-- [x] Referencias simples (&)  
-- [x] Referencias a punteros (Nodo*&)  
-- [x] Modificación directa de variables externas  
-- [x] Uso en estructuras dinámicas  
+- ✔️ Referencias simples (&)  
+- ✔️ Referencias a punteros (Nodo*&)  
+- ✔️ Modificación directa de variables externas  
+- ✔️ Uso en estructuras dinámicas  
 
 Memoria dinámica  
-- [x] new y delete  
-- [x] creación de nodos dinámicos  
-- [x] liberación de memoria  
-- [x] manejo de memoria en listas enlazadas  
-- [x] prevención básica de memory leaks  
+- ✔️ new y delete  
+- ✔️ creación de nodos dinámicos  
+- ✔️ liberación de memoria  
+- ✔️ manejo de memoria en listas enlazadas  
+- ✔️ prevención básica de memory leaks  
 
 Stack (Array-based)  
-- [x] push  
-- [x] pop  
-- [x] top  
-- [x] empty  
-- [x] size  
+- ✔️ push  
+- ✔️ pop  
+- ✔️ top  
+- ✔️ empty  
+- ✔️ size  
 
 Queue (Array-based)  
-- [x] enqueue  
-- [x] dequeue  
-- [x] front  
-- [x] back  
-- [x] empty  
-- [x] size  
+- ✔️ enqueue  
+- ✔️ dequeue  
+- ✔️ front  
+- ✔️ back  
+- ✔️ empty  
+- ✔️ size  
 
 Templates  
 - [ ] Concepto de templates  
@@ -55,23 +55,23 @@ Templates
 - [ ] estructuras genéricas (pendiente implementación)  
 
 Ejercicios de repaso  
-- [x] punteros básicos  
-- [x] memoria dinámica  
-- [x] listas enlazadas simples  
-- [x] problemas de arrays  
-- [x] segundo mayor en un arreglo  
+- ✔️ punteros básicos  
+- ✔️ memoria dinámica  
+- ✔️ listas enlazadas simples  
+- ✔️ problemas de arrays  
+- ✔️ segundo mayor en un arreglo  
 - [ ] problemas mixtos de estructuras
 ---
 
 ## 🔗 Linked Lists/
 
 ### Singly Linked List
-- [x] pushFront
-- [x] popFront
-- [x] pushBack
-- [x] popBack
-- [x] find
-- [x] insertAfter
+- ✔️ pushFront
+- ✔️ popFront
+- ✔️ pushBack
+- ✔️ popBack
+- ✔️ find
+- ✔️ insertAfter
 - [ ] insertBefore
 - [ ] erase
 - [ ] clear
