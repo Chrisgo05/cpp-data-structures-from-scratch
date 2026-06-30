@@ -108,6 +108,46 @@ Ejercicios de repaso
 - [ ] reverse
 
 ---
+## Sorting/
+
+### Sorting Algorithms (Arrays - Básico)
+
+- [] bubble sort
+- [] selection sort
+- [] insertion sort
+
+---
+
+### Sorting Algorithms (Intermedio)
+
+- [ ] merge sort (arrays)
+- [ ] quick sort (arrays)
+- [ ] heap sort
+
+---
+
+### Sorting Algorithms (Avanzado - optimizados)
+
+- [ ] counting sort
+- [ ] radix sort
+- [ ] bucket sort
+
+---
+
+### Sorting con estructuras (SIN arrays directos)
+
+- [ ] merge sort (linked list)
+- [ ] insertion sort (linked list)
+- [ ] quick sort (linked list optimized)
+
+---
+
+### Extras (muy avanzados / opcionales)
+
+- [ ] external sorting (grandes datos)
+- [ ] stable vs unstable analysis
+- [ ] in-place vs out-of-place implementations
+---
 
 ## 📦 Linear Structures/
 
