@@ -16,7 +16,7 @@ Ubicado en:
 Basics/
 
 Punteros  
-- [x] Concepto y uso básico de punteros  
+- [DONE] Concepto y uso básico de punteros  
 - [x] Punteros con nodos (linked list base)  
 - [x] Uso de nullptr  
 - [x] Paso por referencia con punteros  
