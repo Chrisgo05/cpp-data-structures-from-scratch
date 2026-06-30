@@ -112,9 +112,9 @@ Ejercicios de repaso
 
 ### Sorting Algorithms (Arrays - Básico)
 
-- [] bubble sort
-- [] selection sort
-- [] insertion sort
+- [ ] bubble sort
+- [ ] selection sort
+- [ ] insertion sort
 
 ### Sorting Algorithms (Intermedio)
 
