@@ -13,7 +13,7 @@ El objetivo no es solo implementar estructuras funcionales, sino comprender su f
 Ubicado en:
 
 
-Basics/
+## Basics/
 
 Punteros  
 - ✔️ Concepto y uso básico de punteros  
