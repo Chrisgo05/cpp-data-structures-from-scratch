@@ -37,17 +37,17 @@ Memoria dinámica
 Stack (Array-based)  
 - ✔️ push  
 - ✔️ pop  
-- ✔️ top  
-- ✔️ empty  
-- ✔️ size  
+- ✔️ peek  
+- [] empty  
+- [] size  
 
 Queue (Array-based)  
 - ✔️ enqueue  
 - ✔️ dequeue  
-- ✔️ front  
-- ✔️ back  
-- ✔️ empty  
-- ✔️ size  
+- [] front  
+- [] back  
+- [] empty  
+- [] size  
 
 Templates  
 - [ ] Concepto de templates  
@@ -55,11 +55,13 @@ Templates
 - [ ] estructuras genéricas (pendiente implementación)  
 
 Ejercicios de repaso  
-- ✔️ punteros básicos  
-- ✔️ memoria dinámica  
-- ✔️ listas enlazadas simples  
-- ✔️ problemas de arrays  
-- ✔️ segundo mayor en un arreglo  
+- ✔️ buscar y modifcar con punteros en un arrya
+- ✔️ buscar y modificar con referencias en un array
+- ✔️ encontrar primera aparicion en un arreglo
+- ✔️ encontrar mayor y poscicion
+- ✔️ encontrar mayor en un arreglo
+- ✔️ encontrar segundo mayor en un arreglo  
+- ✔️ repaso arrays  
 - [ ] problemas mixtos de estructuras
 ---
 
@@ -72,6 +74,7 @@ Ejercicios de repaso
 - ✔️ popBack
 - ✔️ find
 - ✔️ insertAfter
+- ✔️ print
 - [ ] insertBefore
 - [ ] erase
 - [ ] clear
@@ -188,8 +191,6 @@ cpp-data-structures/
 │   ├── DynamicMemory/
 │   ├── Templates/
 │   ├── Arrays/
-│   │   ├── stack_array.cpp
-│   │   └── queue_array.cpp
 │   └── Exercises/
 │
 ├── 02_LinkedLists/
