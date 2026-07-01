@@ -73,13 +73,14 @@ Ejercicios de repaso
 - ✔️ pushBack
 - ✔️ popBack
 - ✔️ find
+- ✔️ findBefore
 - ✔️ insertAfter
 - ✔️ print
-- [ ] insertBefore
-- [ ] erase
-- [ ] clear
-- [ ] size
-- [ ] reverse
+- ✔️ insertBefore
+- ✔️ erase
+- ✔️ clear
+- ✔️ size
+- ✔️ reverse
 
 ### Doubly Linked List
 - [ ] pushFront
