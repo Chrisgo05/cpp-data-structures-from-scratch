@@ -285,7 +285,7 @@ Actualmente trabajando en:
 
 ## 🔗 Singly Linked List
 - Operaciones básicas completadas parcialmente
-- Próximos pasos: `erase` e `insertBefore`
+- Próximos pasos: refactorizar singlyLinkList a clase y empezar con doblyLinkList
 
 ---
 
