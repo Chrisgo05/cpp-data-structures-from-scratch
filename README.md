@@ -73,9 +73,9 @@ Ejercicios de repaso
 - ✔️ pushBack
 - ✔️ popBack
 - ✔️ find
-- ✔️ findBefore
 - ✔️ insertAfter
 - ✔️ print
+- ✔️ findBefore
 - ✔️ insertBefore
 - ✔️ erase
 - ✔️ clear
