@@ -1,0 +1,18 @@
+# VS Code
+.vscode/
+
+# Ejecutables
+main
+*.exe
+*.out
+
+# Objetos compilados
+*.o
+*.obj
+
+# Carpetas de compilación
+build/
+cmake-build-*/
+
+# Archivos temporales
+*.log
