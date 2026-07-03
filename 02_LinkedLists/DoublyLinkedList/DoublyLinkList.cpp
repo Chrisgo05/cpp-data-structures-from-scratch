@@ -6,7 +6,7 @@ DoublyLinkList::DoublyLinkList(){
     tail = nullptr;
 }
 
-DoublyLinkList::DoublyLinkList(){
+DoublyLinkList::~DoublyLinkList(){
     clear();
 }
 
@@ -78,11 +78,50 @@ bool DoublyLinkList::popBack(int& valorpop){
 
 
 bool DoublyLinkList::insertAfter(int vAntes, int valor){
+    Nodo* nAntes = find(vAntes);
+
+    if(nAntes != nullptr && nAntes -> siguiente != nullptr){
+        Nodo* nDespues = nAntes ->siguiente;
+        Nodo* nIntermedio = new Nodo;
+        
+        nIntermedio -> valor = valor;
+        nIntermedio -> anterior = nAntes;
+        nIntermedio -> siguiente = nDespues;
+    
+        nAntes -> siguiente = nIntermedio;
+        nDespues -> anterior = nIntermedio;
+
+        return true;
+    }else if(nAntes != nullptr && nAntes ->siguiente == nullptr){
+        pushBack(valor);
+        return true;
+    }
+    
+    return false;
 
 }
 
 bool DoublyLinkList::insertBefore(int vDespues, int valor){
+    Nodo* nDespues = find(vDespues);
 
+    if(nDespues != nullptr && nDespues -> anterior != nullptr){
+        Nodo* nAntes = nDespues ->anterior;
+        Nodo* nIntermedio = new Nodo;
+        
+        nIntermedio -> valor = valor;
+        nIntermedio -> siguiente = nDespues;
+        nIntermedio -> anterior = nAntes;
+    
+        nDespues -> anterior = nIntermedio;
+        nAntes -> siguiente = nIntermedio;
+
+        return true;
+    }else if(nDespues != nullptr && nDespues ->anterior == nullptr){
+        pushFront(valor);
+        return true;
+    }
+    
+    return false;
 }
 
 
@@ -98,20 +137,68 @@ Nodo* DoublyLinkList::find(int valor){
 }
 
 bool DoublyLinkList::erase(int valor){
+    Nodo* borrar = find(valor);
+    int valorborrado;
+
+    if(borrar == nullptr){
+        return false;
+        
+    }else if(head == borrar){
+        popFront(valorborrado);
+        return true;
+        
+    }else if(tail == borrar){
+        popBack(valorborrado);
+        return true;
+        
+    }
+
+    Nodo* nAntes = borrar -> anterior;
+    Nodo* nDespues = borrar -> siguiente;
+
+    nAntes -> siguiente = nDespues;
+    nDespues -> anterior = nAntes;
+
+    delete borrar;
+    return true;
 
 }
 
 
 int DoublyLinkList::size(){
+    int tam = 0;
+    Nodo* actual = head;
+    
+    while(actual != nullptr){
+        tam++;
+        actual = actual -> siguiente;
+    }
 
+    return tam;
 }
 
 void DoublyLinkList::reverse(){
+    if(head == nullptr || head == tail){
+        return;
+    }
+
+    Nodo* ntemp = head;
+    head = tail;
+    tail = ntemp;
+    Nodo* actual = head;
+
+    while(actual != nullptr){
+        ntemp = actual -> anterior;
+        actual -> anterior = actual -> siguiente;
+        actual -> siguiente = ntemp;
+
+        actual = actual -> siguiente;
+    }
 
 }
 
 void DoublyLinkList::clear(){
-    while(tail != nullptr && head != nullptr){
+    while(head != nullptr){
         if(tail == head){
             delete tail;
             tail = nullptr;

@@ -88,11 +88,11 @@ Ejercicios de repaso
 - ✔️ pushBack
 - ✔️ popBack
 - ✔️ find
-- [ ] insertAfter
-- [ ] insertBefore
-- [ ] erase
+- ✔️ insertAfter
+- ✔️ insertBefore
+- ✔️ erase
 - ✔️ clear
-- [ ] size
+- ✔️ size
 - ✔️ reverse
 
 ### Circular Linked List
@@ -284,9 +284,8 @@ Cada estructura incluye:
 Actualmente trabajando en:
 
 ## 🔗 Doubly Linked List
-
-* Operaciones básicas en progreso.
-* Próximos pasos: seguir con insertAfter, insertBefore, erase, reverse y size.
+- Implementación completada y probada
+- Próximos pasos: Circular Singly Linked List
 
 
 ---
