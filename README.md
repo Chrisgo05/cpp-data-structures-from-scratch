@@ -38,16 +38,16 @@ Stack (Array-based)
 - ✔️ push  
 - ✔️ pop  
 - ✔️ peek  
-- [] empty  
-- [] size  
+- [ ] empty  
+- [ ] size  
 
 Queue (Array-based)  
 - ✔️ enqueue  
 - ✔️ dequeue  
-- [] front  
-- [] back  
-- [] empty  
-- [] size  
+- [ ] front  
+- [ ] back  
+- [ ] empty  
+- [ ] size  
 
 Templates  
 - [ ] Concepto de templates  
@@ -83,17 +83,17 @@ Ejercicios de repaso
 - ✔️ reverse
 
 ### Doubly Linked List
-- [ ] pushFront
-- [ ] popFront
-- [ ] pushBack
-- [ ] popBack
-- [ ] find
+- ✔️ pushFront
+- ✔️ popFront
+- ✔️ pushBack
+- ✔️ popBack
+- ✔️ find
 - [ ] insertAfter
 - [ ] insertBefore
 - [ ] erase
-- [ ] clear
+- ✔️ clear
 - [ ] size
-- [ ] reverse
+- ✔️ reverse
 
 ### Circular Linked List
 - [ ] pushFront
@@ -283,9 +283,11 @@ Cada estructura incluye:
 
 Actualmente trabajando en:
 
-## 🔗 Singly Linked List
-- Operaciones básicas completadas parcialmente
-- Próximos pasos: singlyLinkList terminada, empezamos con doblyLinkList
+## 🔗 Doubly Linked List
+
+* Operaciones básicas en progreso.
+* Próximos pasos: seguir con insertAfter, insertBefore, erase, reverse y size.
+
 
 ---
 
