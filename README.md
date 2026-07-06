@@ -88,21 +88,35 @@ Ejercicios de repaso
 - ✔️ pushBack
 - ✔️ popBack
 - ✔️ find
+- ✔️ print
 - ✔️ insertAfter
-- ✔️ insertBefore
 - ✔️ erase
 - ✔️ clear
 - ✔️ size
 - ✔️ reverse
 
 ### Circular Linked List
+- ✔️ pushFront
+- [ ] popFront
+- ✔️ pushBack
+- [ ] popBack
+- ✔️ find
+- ✔️ print
+- [ ] insertAfter
+- [ ] insertBefore
+- [ ] erase
+- ✔️ clear
+- ✔️ size
+- [ ] reverse
+
+### Doubly Circular Linked List
 - [ ] pushFront
 - [ ] popFront
 - [ ] pushBack
 - [ ] popBack
 - [ ] find
+- [ ] print
 - [ ] insertAfter
-- [ ] insertBefore
 - [ ] erase
 - [ ] clear
 - [ ] size
@@ -231,18 +245,25 @@ cpp-data-structures/
 │   ├── DoublyLinkedList/
 │   └── CircularLinkedList/
 │
-├── 03_LinearStructures/
+├── 03_Sorting/
+│   ├──Arrays - Básico/
+│   ├── Intermedio/
+│   ├── Avanzado - optimizados/
+│   ├── SIN arrays directos/
+│   └── muy avanzados (opcionales)/
+│
+├── 04_LinearStructures/
 │   ├── Stack/
 │   └── Queue/
 │
-├── 04_Trees/
+├── 05_Trees/
 │   ├── BinarySearchTree/
 │   ├── AVL/
 │   └── Heap/
 │
-├── 05_HashTable/
+├── 06_HashTable/
 │
-└── 06_Graphs/
+└── 07_Graphs/
 ```
 
 ---
