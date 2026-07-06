@@ -101,6 +101,7 @@ Ejercicios de repaso
 - ✔️ pushBack
 - [ ] popBack
 - ✔️ find
+- [ ] findBefore
 - ✔️ print
 - [ ] insertAfter
 - [ ] insertBefore
