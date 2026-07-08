@@ -97,18 +97,18 @@ Ejercicios de repaso
 
 ### Circular Linked List
 - ✔️ pushFront
-- [ ] popFront
+- ✔️ popFront
 - ✔️ pushBack
-- [ ] popBack
+- ✔️ popBack
 - ✔️ find
-- [ ] findBefore
+- ✔️ findBefore
 - ✔️ print
-- [ ] insertAfter
-- [ ] insertBefore
-- [ ] erase
+- ✔️ insertAfter
+- ✔️ insertBefore
+- ✔️ erase
 - ✔️ clear
 - ✔️ size
-- [ ] reverse
+- ✔️ reverse
 
 ### Doubly Circular Linked List
 - [ ] pushFront
@@ -305,9 +305,9 @@ Cada estructura incluye:
 
 Actualmente trabajando en:
 
-## 🔗 Doubly Linked List
+## 🔗 Singly Circular Linked List
 - Implementación completada y probada
-- Próximos pasos: Circular Singly Linked List
+- Próximos pasos: Circular Doubly Linked List
 
 
 ---

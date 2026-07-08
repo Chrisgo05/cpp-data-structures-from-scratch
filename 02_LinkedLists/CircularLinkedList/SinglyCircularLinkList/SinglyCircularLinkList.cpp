@@ -25,7 +25,24 @@ void SinglyCircularLinkList::pushFront(int valor){
     }
 }
 
-bool SinglyCircularLinkList::popFront(int& valorpop){}
+bool SinglyCircularLinkList::popFront(int& valorpop){
+    if(head == nullptr){
+        return false;
+    }else if(head == tail){
+        valorpop = head -> valor;
+        delete head;
+        head = nullptr;
+        tail = head;
+        return true; 
+    }else{
+        valorpop = head -> valor;
+        Nodo* borra = head;
+        head = head -> siguiente;
+        delete borra;
+        tail -> siguiente = head;
+        return true;
+    }
+}
 
 void SinglyCircularLinkList::pushBack(int valor){
     Nodo* nuevo = new Nodo;
@@ -42,12 +59,63 @@ void SinglyCircularLinkList::pushBack(int valor){
     }
 }
 
-bool SinglyCircularLinkList::popBack(int& valorpop){}
+bool SinglyCircularLinkList::popBack(int& valorpop){
+    if(tail == nullptr){
+        return false;
+    }else if(head == tail){
+        valorpop = tail -> valor;
+        delete tail;
+        tail = nullptr;
+        head = tail;
+        return true; 
+    }else{
+        valorpop = tail -> valor;
+        Nodo* borra = tail;
+        tail = findBefore(tail -> valor);
+        tail -> siguiente = head;
+        delete borra;
+        return true;
+    }
+}
 
 
-bool SinglyCircularLinkList::insertAfter(int vAntes ,int valor){}
+bool SinglyCircularLinkList::insertAfter(int vAntes ,int valor){
+    Nodo* nAntes = find(vAntes);
+    if(nAntes == nullptr){
+        return false;
+    }else if(vAntes == tail -> valor){
+        pushBack(valor);
+        return true;
+    }else{
+        Nodo* nDespues = nAntes -> siguiente;
+        Nodo* nIntermedio = new Nodo;
+    
+        nIntermedio -> valor = valor;
 
-bool SinglyCircularLinkList::insertBefore(int vDespues, int valor){}
+        nAntes -> siguiente = nIntermedio;
+        nIntermedio ->siguiente = nDespues;
+        return true;
+    }
+}
+
+bool SinglyCircularLinkList::insertBefore(int vDespues, int valor){
+    Nodo* nAntes = findBefore(vDespues);
+    if(nAntes == nullptr){
+        return false;
+    }else if(vDespues == head -> valor){
+        pushFront(valor);
+        return true;
+    }else{
+        Nodo* nDespues = nAntes -> siguiente;
+        Nodo* nIntermedio = new Nodo;
+    
+        nIntermedio -> valor = valor;
+
+        nAntes -> siguiente = nIntermedio;
+        nIntermedio ->siguiente = nDespues;
+        return true;
+    }
+}
 
 
 Nodo* SinglyCircularLinkList::find(int buscando){
@@ -67,13 +135,48 @@ Nodo* SinglyCircularLinkList::find(int buscando){
     return nullptr;
 }
 
-Nodo* SinglyCircularLinkList::findBefore(int vDespues){}
+Nodo* SinglyCircularLinkList::findBefore(int vDespues){
+    if(head == nullptr){
+        return nullptr;
+    }else if(vDespues == head -> valor){
+        return tail;
+    }
+    else{
+        Nodo* actual = head;
+        do{
+            if(actual -> siguiente -> valor == vDespues){
+                return actual;
+            }
+            actual = actual -> siguiente;
+        }while(actual != head);
+        return nullptr;
+    }
+}
 
-bool SinglyCircularLinkList::erase(int valor){}
+bool SinglyCircularLinkList::erase(int valor){
+    Nodo* nAntes = findBefore(valor);
+    int valorEliminado;
+
+    if(head != nullptr && valor == head -> valor){
+        popFront(valorEliminado);
+        return true;
+    }else if(tail != nullptr && valor == tail -> valor){
+        popBack(valorEliminado);
+        return true;
+    }else if(nAntes != nullptr){
+        Nodo* borrar = nAntes -> siguiente;
+        Nodo* nDespues = borrar -> siguiente;
+
+        nAntes -> siguiente = nDespues;
+        delete borrar;
+        return true;
+    }
+    return false;
+}
 
 void SinglyCircularLinkList::clear(){
     if(head == nullptr){
-        std::cout << "La lista ya esta vacia" << std::endl;
+        return;
 
     }else{
         do{
@@ -121,4 +224,30 @@ void SinglyCircularLinkList::print(){
     }
 }
 
-void SinglyCircularLinkList::reverse(){}
+void SinglyCircularLinkList::reverse(){
+    if(head == nullptr || head == tail){
+        return;
+    }else{
+        tail -> siguiente = nullptr;
+        Nodo* nuevoCirculo = head;
+        Nodo* antiguaCabeza = head;
+        Nodo* temp;
+
+        head = head -> siguiente;
+        nuevoCirculo -> siguiente = nullptr;
+
+        while(head != tail){
+            temp = head -> siguiente;
+            head -> siguiente = nuevoCirculo;
+            nuevoCirculo = head;
+            head = temp;
+        }
+
+        tail -> siguiente = nuevoCirculo;
+        head = tail;
+        tail = antiguaCabeza;
+
+        tail -> siguiente = head;
+
+    }
+}
