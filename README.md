@@ -130,7 +130,7 @@ Ejercicios de repaso
 
 ### Sorting Algorithms (Arrays - Básico)
 
-- [ ] bubble sort
+- ✔️ bubble sort
 - [ ] selection sort
 - [ ] insertion sort
 
@@ -307,15 +307,14 @@ Cada estructura incluye:
 
 Actualmente trabajando en:
 
-## 🔗 Doubly Circular Linked List
+## 🔗 Sorting
 
-* Implementación completada.
+* Implementación bubble sort.
 
 ## 📚 Próximos pasos
 
-* Comenzar **Sorting Algorithms** con:
+* Seguir **Basic Sorting Algorithms** con:
 
-  * Bubble Sort
   * Selection Sort
   * Insertion Sort
 
