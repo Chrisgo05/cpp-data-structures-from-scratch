@@ -179,12 +179,12 @@ void SinglyCircularLinkList::clear(){
         return;
 
     }else{
-        do{
+        while(head != tail){
             Nodo* actual = head;
             head = head -> siguiente;
             delete actual;
 
-        }while(head != tail);
+        }
 
         delete tail;
         head = nullptr;

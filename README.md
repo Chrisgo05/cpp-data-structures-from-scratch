@@ -111,17 +111,19 @@ Ejercicios de repaso
 - ✔️ reverse
 
 ### Doubly Circular Linked List
-- [ ] pushFront
-- [ ] popFront
-- [ ] pushBack
-- [ ] popBack
-- [ ] find
-- [ ] print
-- [ ] insertAfter
-- [ ] erase
-- [ ] clear
-- [ ] size
-- [ ] reverse
+- ✔️ pushFront
+- ✔️ popFront
+- ✔️ pushBack
+- ✔️ popBack
+- ✔️ find
+- ✔️ print
+- ✔️ insertAfter
+- ✔️ erase
+- ✔️ clear
+- ✔️ size
+- ✔️ reverse
+- ✔️ swapLinks
+- ✔️ reverseCircular
 
 ---
 ## Sorting/
@@ -305,9 +307,18 @@ Cada estructura incluye:
 
 Actualmente trabajando en:
 
-## 🔗 Singly Circular Linked List
-- Implementación completada y probada
-- Próximos pasos: Circular Doubly Linked List
+## 🔗 Doubly Circular Linked List
+
+* Implementación completada.
+
+## 📚 Próximos pasos
+
+* Comenzar **Sorting Algorithms** con:
+
+  * Bubble Sort
+  * Selection Sort
+  * Insertion Sort
+
 
 
 ---
