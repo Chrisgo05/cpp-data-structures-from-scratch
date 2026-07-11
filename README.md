@@ -130,8 +130,8 @@ Ejercicios de repaso
 
 ### Sorting Algorithms (Arrays - Básico)
 
-- ✔️ bubble sort
-- [ ] selection sort
+[- ✔️ bubble sort
+- ✔️ selection sort
 - [ ] insertion sort
 
 ### Sorting Algorithms (Intermedio)
@@ -310,12 +310,12 @@ Actualmente trabajando en:
 ## 🔗 Sorting
 
 * Implementación bubble sort.
+* Implementación Selection Sort
 
 ## 📚 Próximos pasos
 
 * Seguir **Basic Sorting Algorithms** con:
 
-  * Selection Sort
   * Insertion Sort
 
 
