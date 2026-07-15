@@ -136,7 +136,7 @@ Ejercicios de repaso
 
 ### Sorting Algorithms (Intermedio)
 
-- [ ] merge sort (arrays)
+- ✔️ merge sort (arrays)
 - [ ] quick sort (arrays)
 - [ ] heap sort
 
@@ -309,14 +309,14 @@ Actualmente trabajando en:
 
 ## 🔗 Sorting
 
-* Implementación bubble sort.
-* Implementación Selection Sort
+* Implementación merge sort.
 
 ## 📚 Próximos pasos
 
 * Seguir **Basic Sorting Algorithms** con:
 
-  * Insertion Sort
+  * Quick sort
+  * heap sort
 
 
 
