@@ -7,3 +7,5 @@ void selectionSort(int arr[], int n);
 void insertionSort(int arr[], int n);
 
 void mergeSort(int arr[], int inicio, int fin);
+
+void quickSort(int arr[], int inicio, int fin);

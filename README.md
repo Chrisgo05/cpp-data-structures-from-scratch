@@ -137,7 +137,7 @@ Ejercicios de repaso
 ### Sorting Algorithms (Intermedio)
 
 - ✔️ merge sort (arrays)
-- [ ] quick sort (arrays)
+- ✔️ quick sort (arrays)
 - [ ] heap sort
 
 ### Sorting Algorithms (Avanzado - optimizados)
@@ -310,12 +310,12 @@ Actualmente trabajando en:
 ## 🔗 Sorting
 
 * Implementación merge sort.
+* Implementación quick sort.
 
 ## 📚 Próximos pasos
 
 * Seguir **Basic Sorting Algorithms** con:
 
-  * Quick sort
   * heap sort
 
 
