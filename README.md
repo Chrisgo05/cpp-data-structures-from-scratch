@@ -138,7 +138,7 @@ Ejercicios de repaso
 
 - ✔️ merge sort (arrays)
 - ✔️ quick sort (arrays)
-- [ ] heap sort
+- ✔️ heap sort
 
 ### Sorting Algorithms (Avanzado - optimizados)
 
@@ -307,16 +307,11 @@ Cada estructura incluye:
 
 Actualmente trabajando en:
 
-## 🔗 Sorting
-
-* Implementación merge sort.
-* Implementación quick sort.
+## 🔗 Basics/ Templates
 
 ## 📚 Próximos pasos
 
-* Seguir **Basic Sorting Algorithms** con:
-
-  * heap sort
+* Linear Structures
 
 
 

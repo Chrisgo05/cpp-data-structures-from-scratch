@@ -18,7 +18,7 @@ void copyArray(int origen[], int destino[], int n){
 
 int main(){
 
-    int original[] = {5,3,5,2,5,1,4,5};
+    int original[] = {5,3,6,2,9,1,4,7};
     int n = sizeof(original) / sizeof(original[0]);
 
     int bubble[n];
@@ -26,12 +26,14 @@ int main(){
     int insertion[n];
     int merge[n];
     int quick[n];
+    int heap[n];
 
     copyArray(original, bubble, n);
     copyArray(original, selection, n);
     copyArray(original, insertion, n);
     copyArray(original, merge, n);
     copyArray(original, quick, n);
+    copyArray(original, heap, n);
 
     cout << "===== ARREGLO ORIGINAL =====" << endl;
     printArray(original, n);
@@ -55,6 +57,10 @@ int main(){
     cout << "\n===== Quick SORT =====" << endl;
     quickSort(quick, 0, n-1);
     printArray(quick, n);
+
+    cout << "\n===== Heap SORT =====" << endl;
+    heapSort(heap, n);
+    printArray(heap, n);
 
 
     return 0;
