@@ -50,9 +50,9 @@ Queue (Array-based)
 - [ ] size  
 
 Templates  
-- [ ] Concepto de templates  
-- [ ] template<typename T>  
-- [ ] estructuras genéricas (pendiente implementación)  
+- ✔️ Concepto de templates  
+- ✔️ template<typename T>  
+- ✔️ estructuras genéricas (pendiente implementación)  
 
 Ejercicios de repaso  
 - ✔️ buscar y modifcar con punteros en un arrya
@@ -309,10 +309,10 @@ Actualmente trabajando en:
 
 ## 🔗 Basics/ Templates
 * Generic Singly Linked List (Template) completada.
+* Organizar templates usando archivos .tpp.
 
 ## 📚 Próximos pasos
 
-* Organizar templates usando archivos .tpp.
 * Implementar Stack utilizando la lista enlazada.
 * Implementar Queue utilizando la lista enlazada.
 * Continuar con Trees.
