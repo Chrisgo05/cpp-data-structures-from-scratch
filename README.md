@@ -308,10 +308,14 @@ Cada estructura incluye:
 Actualmente trabajando en:
 
 ## 🔗 Basics/ Templates
+* Generic Singly Linked List (Template) completada.
 
 ## 📚 Próximos pasos
 
-* Linear Structures
+* Organizar templates usando archivos .tpp.
+* Implementar Stack utilizando la lista enlazada.
+* Implementar Queue utilizando la lista enlazada.
+* Continuar con Trees.
 
 
 
