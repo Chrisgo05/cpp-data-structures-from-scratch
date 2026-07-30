@@ -169,12 +169,12 @@ Ejercicios de repaso
 - ✔️ size
 
 ### Queue
-- [ ] enqueue
-- [ ] dequeue
-- [ ] front
-- [ ] back
-- [ ] empty
-- [ ] size
+- ✔️ enqueue
+- ✔️ dequeue
+- ✔️ front
+- ✔️ back
+- ✔️ empty
+- ✔️ size
 
 ---
 
@@ -311,10 +311,10 @@ Actualmente trabajando en:
 * Generic Singly Linked List (Template) completada.
 * Organizar templates usando archivos .tpp.
 * Implementar Stack utilizando la lista enlazada.
+* Implementar Queue utilizando la lista enlazada.
 
 ## 📚 Próximos pasos
 
-* Implementar Queue utilizando la lista enlazada.
 * Continuar con Trees.
 
 
