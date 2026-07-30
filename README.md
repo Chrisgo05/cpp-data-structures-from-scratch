@@ -162,11 +162,11 @@ Ejercicios de repaso
 ## 📦 Linear Structures/
 
 ### Stack
-- [ ] push
-- [ ] pop
-- [ ] top
-- [ ] empty
-- [ ] size
+- ✔️ push
+- ✔️ pop
+- ✔️ top
+- ✔️ empty
+- ✔️ size
 
 ### Queue
 - [ ] enqueue
@@ -310,10 +310,10 @@ Actualmente trabajando en:
 ## 🔗 Basics/ Templates
 * Generic Singly Linked List (Template) completada.
 * Organizar templates usando archivos .tpp.
+* Implementar Stack utilizando la lista enlazada.
 
 ## 📚 Próximos pasos
 
-* Implementar Stack utilizando la lista enlazada.
 * Implementar Queue utilizando la lista enlazada.
 * Continuar con Trees.
 

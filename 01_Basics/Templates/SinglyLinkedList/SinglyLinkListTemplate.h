@@ -19,6 +19,9 @@ class SinglyLinkListTemplate{
         void pushBack(T valor);
         bool popBack(T& valorpop);
 
+        bool front(T& valor);
+        bool back(T& valor);
+
         Nodo<T>* find(T valor);
 
         bool insertAfter(T vAntes, T valor);
@@ -125,6 +128,24 @@ bool SinglyLinkListTemplate<T>::popBack(T& valor){
         tail = actual;
         return true;
     }
+}
+
+template <typename T>
+bool SinglyLinkListTemplate<T>::front(T& valor){
+    if(head != nullptr){
+        valor = head -> valor;
+        return true;
+    }
+    return false;
+}
+
+template <typename T>
+bool SinglyLinkListTemplate<T>::back(T& valor){
+    if(head != nullptr){
+        valor = tail -> valor;
+        return true;
+    }
+    return false;
 }
 
 template <typename T>
