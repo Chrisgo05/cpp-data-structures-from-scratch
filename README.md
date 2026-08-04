@@ -181,12 +181,15 @@ Ejercicios de repaso
 ## 🌳 Trees/
 
 ### Binary Search Tree (BST)
-- [ ] insert
+- ✔️ insert
 - [ ] remove
-- [ ] search
-- [ ] findMin
-- [ ] findMax
-- [ ] traversal (inorder / preorder / postorder)
+- ✔️ search
+- ✔️ findMin
+- ✔️ findMax
+- [ ] traversal ([ ]inorder / [ ]preorder / [ ]postorder)
+- [ ] clear
+- ✔️ empty
+- ✔️ size
 
 ### AVL Tree
 - [ ] insert
