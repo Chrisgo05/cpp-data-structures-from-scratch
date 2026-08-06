@@ -182,12 +182,12 @@ Ejercicios de repaso
 
 ### Binary Search Tree (BST)
 - ✔️ insert
-- [ ] remove
+- ✔️ remove
 - ✔️ search
 - ✔️ findMin
 - ✔️ findMax
-- [ ] traversal ([ ]inorder / [ ]preorder / [ ]postorder)
-- [ ] clear
+- ✔️ traversal (✔️inorder / ✔️preorder / ✔️postorder)
+- ✔️ clear
 - ✔️ empty
 - ✔️ size
 
@@ -310,15 +310,11 @@ Cada estructura incluye:
 
 Actualmente trabajando en:
 
-## 🔗 Basics/ Templates
-* Generic Singly Linked List (Template) completada.
-* Organizar templates usando archivos .tpp.
-* Implementar Stack utilizando la lista enlazada.
-* Implementar Queue utilizando la lista enlazada.
+impresion de bst bonito
 
 ## 📚 Próximos pasos
 
-* Continuar con Trees.
+* Continuar con avl.
 
 
 
