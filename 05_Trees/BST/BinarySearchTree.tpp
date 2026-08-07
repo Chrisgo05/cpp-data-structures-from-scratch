@@ -76,6 +76,7 @@ bool BinarySearchTree<T>::remove(TreeNode<T>*& actual, T valor){
 
         return true;
     }
+    return false;
 }
 
 
@@ -102,30 +103,42 @@ TreeNode<T>* BinarySearchTree<T>::search(TreeNode<T>* actual, T valor){
 
 template<typename T>
 TreeNode<T>* BinarySearchTree<T>::findMin(){
-    if(raiz == nullptr){
+    return findMin(raiz);
+}
+
+template<typename T>
+TreeNode<T>* BinarySearchTree<T>::findMin(TreeNode<T>* actual){
+    if(actual == nullptr){
         return nullptr;
     }
-    TreeNode<T>* minimo = raiz;
+    TreeNode<T>* minimo = actual;
     while(minimo != nullptr){
         if(minimo -> izquierda == nullptr){
             return minimo;
         }
         minimo = minimo -> izquierda;
     }
+    return nullptr;
 }
 
 template<typename T>
 TreeNode<T>* BinarySearchTree<T>::findMax(){
-    if(raiz == nullptr){
+    return findMax(raiz);
+}
+
+template<typename T>
+TreeNode<T>* BinarySearchTree<T>::findMax(TreeNode<T>* actual){
+    if(actual == nullptr){
         return nullptr;
     }
-    TreeNode<T>* maximo = raiz;
+    TreeNode<T>* maximo = actual;
     while(maximo != nullptr){
         if(maximo -> derecha == nullptr){
             return maximo;
         }
         maximo = maximo -> derecha;
     }
+    return nullptr;
 }
 
 

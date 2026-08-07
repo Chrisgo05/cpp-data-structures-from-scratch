@@ -10,6 +10,8 @@ class BinarySearchTree{
         bool remove(TreeNode<T>*& actual, T valor);
 
         TreeNode<T>* search(TreeNode<T>* actual, T valor);
+        TreeNode<T>* findMin(TreeNode<T>* actual);
+        TreeNode<T>* findMax(TreeNode<T>* actual);
 
         void inorder(TreeNode<T>* actual);
         void preorder(TreeNode<T>* actual);
